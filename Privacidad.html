@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Timer Pro</title>
+    <style>
+        /* Reutilizamos el motor de diseño base de Timer Pro */
+        :root { 
+            --bg: #000000; 
+            --accent: #a2d921; 
+            --text: #f5f5f5; 
+            --card-bg: #151515;
+            --border: #2a2a2a;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 40px 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 2.5em;
+            margin-top: 0;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+
+        p, li {
+            color: #cccccc;
+            font-size: 1.05em;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .highlight {
+            color: var(--text);
+            font-weight: bold;
+        }
+
+        .contact-email {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background: #222;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Diseño adaptable para móviles */
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px 10px;
+                padding: 25px;
+            }
+            h1 { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p><strong>Última actualización:</strong> <span class="highlight">[Fecha de hoy, ej. 23 de Julio de 2026]</span></p>
+
+        <p><strong>[Ascend Strength]</strong> ("nosotros", "nuestro" o "nos") opera la aplicación móvil <strong>Timer Pro</strong> (la "Aplicación"). Esta página le informa sobre nuestras políticas relativas a la recopilación, el uso y la divulgación de datos personales cuando utiliza nuestra Aplicación.</p>
+
+        <h2>1. Recopilación de Datos Personales</h2>
+        <p>Nuestra Aplicación está diseñada para priorizar su privacidad. <strong>Timer Pro no recopila, almacena, ni transmite ningún dato personal de identificación</strong> a servidores externos. Todo el historial de entrenamientos y configuraciones de usuario se almacena localmente en la memoria de su propio dispositivo (usando <span class="highlight">localStorage</span> nativo).</p>
+
+        <h2>2. Permisos del Dispositivo (Hardware)</h2>
+        <p>Para proporcionar una experiencia de entrenamiento óptima, la Aplicación solicita acceso a ciertas funciones nativas del dispositivo. Estos permisos operan de manera 100% local:</p>
+        <ul>
+            <li><strong>Vibración (VIBRATE):</strong> Se utiliza exclusivamente para proporcionar retroalimentación táctil (háptica) durante los cambios de fase del temporizador o interacciones con los botones.</li>
+            <li><strong>Bloqueo de Pantalla (WAKE_LOCK):</strong> Se utiliza para mantener la pantalla encendida y activa de manera ininterrumpida únicamente mientras un entrenamiento está en ejecución.</li>
+        </ul>
+
+        <h2>3. Servicios de Terceros</h2>
+        <p>Timer Pro es una herramienta autónoma. No integramos software de seguimiento de terceros, herramientas de análisis de comportamiento ni plataformas de publicidad que requieran sus datos de uso.</p>
+
+        <h2>4. Seguridad de los Datos</h2>
+        <p>La seguridad de la información almacenada en su dispositivo es importante para nosotros. Como los datos del historial de entrenamiento nunca abandonan su teléfono inteligente, el control y la seguridad de los mismos residen en la seguridad física y lógica que usted mantenga sobre su propio dispositivo.</p>
+
+        <h2>5. Cambios en esta Política de Privacidad</h2>
+        <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la "Última actualización" en la parte superior. Se recomienda revisar esta política periódicamente.</p>
+
+        <h2>6. Contacto</h2>
+        <p>Si tiene alguna pregunta, duda o sugerencia técnica sobre nuestro código o esta Política de Privacidad, por favor contáctenos:</p>
+        <a href="mailto:[sergio.oyharcabalb@gmail.com]" class="contact-email">✉️ [sergio.oyharcabalb@gmail.com]</a>
+    </div>
+
+</body>
+</html>
